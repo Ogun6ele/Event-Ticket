@@ -28,6 +28,7 @@ const FirstStep = () => {
     return (
         <div>
             <MainComponent
+                step={1}
                 heading='Ticket Selection'
                 buttonPrevious="Cancel" 
                 buttonNext="Next"

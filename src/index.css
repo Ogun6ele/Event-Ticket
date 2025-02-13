@@ -485,7 +485,7 @@ textarea{
 
 @media only screen and (max-width: 600px) {
     nav{
-        margin: 1.719em;
+        margin: 1.25em;
     }
     
     nav ul{
@@ -500,14 +500,21 @@ textarea{
     nav button{
         width: 8.8125em;
         height: 2.75em;
+        padding: 0.75em 1em;
     }
 
     nav button p{
         font-size: 0.575em;
     }
 
+    nav button img{
+        width: 1em;
+        height: 0.5em;
+    }
+
     main{
         padding: 1.5em;
+        margin: 1.25em;
     }
 
     .heading h1{
@@ -528,8 +535,6 @@ textarea{
         gap: 1.5em;
     }
 
-
-
     .selection .event-details h1{
         font-family: "Road Rage", serif;
         font-size: 3em;
@@ -548,6 +553,9 @@ textarea{
         width: 100%;
     }
 
+    .upload div .blank{
+    background-color: transparent;
+    }
     
 
    

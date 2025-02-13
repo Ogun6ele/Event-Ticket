@@ -21,6 +21,7 @@ const ThirdStep = () => {
     return (
         <div>
             <MainComponent
+                step={3}
                 heading='Ready'
                 buttonPrevious="Book Another Ticket" 
                 buttonNext="Download Ticket"

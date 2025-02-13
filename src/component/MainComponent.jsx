@@ -1,12 +1,12 @@
-const MainComponent = ({ heading, children, buttonPrevious, buttonNext, onNext, onPrevious, disableNext }) => {
+const MainComponent = ({ step, heading, children, buttonPrevious, buttonNext, onNext, onPrevious, disableNext }) => {
   return (
     <main>
       <div className="heading">
         <h1>{heading}</h1>
-        <p>Step 1/3</p>
+        <p>Step {step}/3</p>
       </div>
       <div className="steps-meter">
-        <span style={{ width: `33%` }}></span>
+        <span style={{ width:`${(step/3) * 100}%`}}></span>
       </div>
       
       <div className="content">

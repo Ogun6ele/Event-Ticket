@@ -54,7 +54,8 @@ const SecondStep = () => {
     return (
         <div>
             <MainComponent
-            heading='Attendee Details'
+                step={2}
+                heading='Attendee Details'
                 buttonPrevious="Back" 
                 buttonNext={`Get my ${selectedTicketType} Ticket`}
                 onNext={handleNext}
