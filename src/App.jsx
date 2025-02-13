@@ -1,9 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import FirstStep from "./pages/FirstStep";
 import SecondStep from "./pages/SecondStep";
 import ThirdStep from "./pages/ThirdStep";
 import Nav from "./component/Nav";
-
 function App() {
   return (
     <>
